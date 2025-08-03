@@ -1,12 +1,12 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.8.0" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.8.0" type="image/png" sizes="32x32"><meta name="description" content="python学习笔记">
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.8.0" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.8.0" type="image/png" sizes="32x32"><meta name="description" content="python学习笔记        ​													雄关漫道真如铁，而今迈步从头越 ​																				——毛泽东                      基础语法                           缩进       缩进就是每一行开头都要有一定的格式，python需要严格的缩进去控制代码 12345if True:">
 <meta property="og:type" content="article">
 <meta property="og:title" content="python">
 <meta property="og:url" content="http://example.com/2025/07/30/python/index.html">
 <meta property="og:site_name" content="QF_wind的博客">
-<meta property="og:description" content="python学习笔记">
+<meta property="og:description" content="python学习笔记        ​													雄关漫道真如铁，而今迈步从头越 ​																				——毛泽东                      基础语法                           缩进       缩进就是每一行开头都要有一定的格式，python需要严格的缩进去控制代码 12345if True:">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-07-30T13:22:50.000Z">
-<meta property="article:modified_time" content="2025-07-30T17:54:19.381Z">
+<meta property="article:modified_time" content="2025-08-03T17:53:57.680Z">
 <meta property="article:author" content="刘骐锋">
 <meta property="article:tag" content="编程">
 <meta property="article:tag" content="python">
@@ -34,8 +34,352 @@ var CONFIG = {
   sourcePath: {"js":"js","css":"css","images":"images"},
 };
 
-window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">归档</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">QF_wind的博客</div><div class="header-banner-info__subtitle">早安、午安、晚安</div></div><div class="header-banner-arrow"><div class="header-banner-arrow__icon"><i class="fas fa-angle-down"></i></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">python</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2025-07-30</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2025-07-31</span></span></div></header><div class="post-body">
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">归档</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">QF_wind的博客</div><div class="header-banner-info__subtitle">早安、午安、晚安</div></div><div class="header-banner-arrow"><div class="header-banner-arrow__icon"><i class="fas fa-angle-down"></i></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">python</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2025-07-30</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2025-08-04</span></span></div></header><div class="post-body">
         <h1 id="python学习笔记"   >
           <a href="#python学习笔记" class="heading-link"><i class="fas fa-link"></i></a><a href="#python学习笔记" class="headerlink" title="python学习笔记"></a>python学习笔记</h1>
+      <blockquote>
+<p>​													雄关漫道真如铁，而今迈步从头越</p>
+<p>​																				——毛泽东</p>
+</blockquote>
+
+        <h2 id="基础语法"   >
+          <a href="#基础语法" class="heading-link"><i class="fas fa-link"></i></a><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h2>
+      
+        <h3 id="缩进"   >
+          <a href="#缩进" class="heading-link"><i class="fas fa-link"></i></a><a href="#缩进" class="headerlink" title="缩进"></a>缩进</h3>
+      <p>缩进就是每一行开头都要有一定的格式，python需要严格的缩进去控制代码</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> <span class="literal">True</span>:</span><br><span class="line">    <span class="built_in">print</span> (<span class="string">&quot;True&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span> (<span class="string">&quot;False&quot;</span>)</span><br><span class="line"><span class="comment"># 这段代码中第一层判断语句顶格写，而执行的代码需要写在判断语句的内部，这里是四个空格</span></span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="多行语句"   >
+          <a href="#多行语句" class="heading-link"><i class="fas fa-link"></i></a><a href="#多行语句" class="headerlink" title="多行语句"></a>多行语句</h3>
+      <p>如果语句太长会导致代码十分的不整齐并且混乱，我们可以通过  \ 来将同一行语句，变成多行</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="number">1312371237</span>+ \</span><br><span class="line">      <span class="number">123342132</span>+ \</span><br><span class="line">      <span class="number">1342433532</span>)</span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="注释"   >
+          <a href="#注释" class="heading-link"><i class="fas fa-link"></i></a><a href="#注释" class="headerlink" title="注释"></a>注释</h3>
+      <figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 我是单行注释</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">我是</span></span><br><span class="line"><span class="string">多行注释</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="引号"   >
+          <a href="#引号" class="heading-link"><i class="fas fa-link"></i></a><a href="#引号" class="headerlink" title="引号"></a>引号</h3>
+      <p>单引号表示一个词，双引号表示一个句子，六个双引号表示多个句子组成的段落</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">word = <span class="string">&#x27;word&#x27;</span></span><br><span class="line">sentence = <span class="string">&quot;这是一个句子。&quot;</span></span><br><span class="line">paragraph = <span class="string">&quot;&quot;&quot;这是一个段落。</span></span><br><span class="line"><span class="string">包含了多个语句&quot;&quot;&quot;</span></span><br></pre></td></tr></table></div></figure>
+
+<span id="more"></span>
+
+
+        <h3 id="同行多语句"   >
+          <a href="#同行多语句" class="heading-link"><i class="fas fa-link"></i></a><a href="#同行多语句" class="headerlink" title="同行多语句"></a>同行多语句</h3>
+      <p>用分号隔开即可</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">age = <span class="number">1</span>;height = <span class="number">200</span></span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="字面量"   >
+          <a href="#字面量" class="heading-link"><i class="fas fa-link"></i></a><a href="#字面量" class="headerlink" title="字面量"></a>字面量</h3>
+      <p>定义：通俗来讲就是写在程序里面的值</p>
+
+        <h4 id="值类型"   >
+          <a href="#值类型" class="heading-link"><i class="fas fa-link"></i></a><a href="#值类型" class="headerlink" title="值类型"></a>值类型</h4>
+      <div class="table-container"><table>
+<thead>
+<tr>
+<th>类型</th>
+<th>描述</th>
+<th align="left">说明&#x2F;举例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>数字（Number）</td>
+<td>包括：<br /> <strong>整数（int）浮点数（float&#x2F;double） <br />复数（complex） 布尔（bool）</strong></td>
+<td align="left"><strong>int</strong>: 10,-8,19<br /> <strong>float&#x2F;double</strong>: 1.109,-838.1<br /> complex: 4+3j 以j结尾<br /> <strong>bool</strong>: 只有true和false，两个值，方便表示真假判断</td>
+</tr>
+<tr>
+<td>字符串（String）</td>
+<td>相当于一段<strong>文本</strong></td>
+<td align="left"><strong>string</strong>:由任意字符组成</td>
+</tr>
+<tr>
+<td>列表（List）</td>
+<td>有序的<strong>可变</strong>序列</td>
+<td align="left">最常用的类型，可有序记录一堆数据</td>
+</tr>
+<tr>
+<td>元组（Tuple）</td>
+<td>有序的<strong>不可变</strong>序列</td>
+<td align="left">可有序记录一堆不可变的数据集合</td>
+</tr>
+<tr>
+<td>集合（Set）</td>
+<td>无序<strong>不重复</strong>组合</td>
+<td align="left">可无序记录一堆不重复的数据集合</td>
+</tr>
+<tr>
+<td>字典（Dictionary）</td>
+<td>无序的<strong>Key-Value</strong>集合</td>
+<td align="left">可无序记录一堆<strong>Key-Value</strong>的数据集合</td>
+</tr>
+</tbody></table></div>
+
+        <h3 id="输入语句"   >
+          <a href="#输入语句" class="heading-link"><i class="fas fa-link"></i></a><a href="#输入语句" class="headerlink" title="输入语句"></a>输入语句</h3>
+      <p>通用格式为：变量名 &#x3D; input(“提示字符串”)</p>
+<p>注意：python输入默认解析为字符串，需要进行类型转换，后面会讲</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">input</span>(<span class="string">&quot;按下 enter 键退出，其他任意键显示...\n&quot;</span>)</span><br><span class="line">age = <span class="built_in">input</span>(<span class="string">&quot;请输入年龄：&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="输出语句"   >
+          <a href="#输出语句" class="heading-link"><i class="fas fa-link"></i></a><a href="#输出语句" class="headerlink" title="输出语句"></a>输出语句</h3>
+      <figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;wind&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+<p>输出括号内的内容</p>
+<p>print格式化输出：</p>
+<p>与C语言的占位符规则相似</p>
+<div class="table-container"><table>
+<thead>
+<tr>
+<th>占位符</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>%d</td>
+<td>输出整数</td>
+</tr>
+<tr>
+<td>%s</td>
+<td>输出字符串</td>
+</tr>
+<tr>
+<td>%c</td>
+<td>输出单个字符</td>
+</tr>
+<tr>
+<td>%f</td>
+<td>输出小数</td>
+</tr>
+</tbody></table></div>
+<p>当然了这种输出方式可以更方便控制输出格式，至于更详细的用法可以上网查一下，这里不展开了</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">animal = <span class="string">&#x27;monkey&#x27;</span></span><br><span class="line">num = <span class="number">4</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;A %s has %d legs&#x27;</span> % (animal, num))</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输出：</span><br><span class="line">A monkey has 4 legs</span><br></pre></td></tr></table></div></figure>
+
+<p>我们还可以在字符串前声明一个 f 这样也可以格式化输出</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">age = <span class="number">18</span></span><br><span class="line">name = <span class="string">&quot;lqf&quot;</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">f&quot;我是<span class="subst">&#123;name&#125;</span>,我今年<span class="subst">&#123;age&#125;</span>岁&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+<p>这种方式是最优雅的，但是不如占位符好控制，两者可以根据需求进行选择</p>
+
+        <h3 id="变量"   >
+          <a href="#变量" class="heading-link"><i class="fas fa-link"></i></a><a href="#变量" class="headerlink" title="变量"></a>变量</h3>
+      <p>通俗来讲，就是程序运行中用来存储某种数据的值</p>
+<p>比如我想存一个人的身高，可以定义 height &#x3D; 185 或者 h &#x3D; 185 ，命名只能有字母、数字、下划线</p>
+<p>至于是具体命名更好，还是简单命名更好，我个人建议，如果你是在参加个人竞赛，那么保证命名自己理解就好。如果你是需要与别人合作，比如团队竞赛，或者开发，那么越具体越好</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 定义变量存储身高</span></span><br><span class="line">height = <span class="number">50</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;小名的身高为：&quot;</span>,height)</span><br><span class="line"><span class="comment"># 小名长高了10cm</span></span><br><span class="line">height = height + <span class="number">10</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;小名的最新身高为：&quot;</span>,height)</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输出：</span><br><span class="line">小名的身高为： 50</span><br><span class="line">小名的最新身高为： 60</span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="数据类型"   >
+          <a href="#数据类型" class="heading-link"><i class="fas fa-link"></i></a><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3>
+      <p>可以使用<strong>type()</strong> 语句来查看数据类型</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="number">185</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="number">75.12</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="literal">True</span>))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(<span class="string">&quot;liuqf&quot;</span>))</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">输出：</span><br><span class="line">&lt;class &#x27;int&#x27;&gt;</span><br><span class="line">&lt;class &#x27;float&#x27;&gt;</span><br><span class="line">&lt;class &#x27;bool&#x27;&gt;</span><br><span class="line">&lt;class &#x27;str&#x27;&gt;</span><br></pre></td></tr></table></div></figure>
+
+<p>或者也可以将变量填入</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">height = <span class="number">188</span></span><br><span class="line">name = <span class="string">&quot;liuqf&quot;</span></span><br><span class="line">sex = <span class="literal">True</span></span><br><span class="line">weight = <span class="number">75.19</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(height))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(weigh.t))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(sex))</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(name))</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">输出：</span><br><span class="line">&lt;class &#x27;int&#x27;&gt;</span><br><span class="line">&lt;class &#x27;float&#x27;&gt;</span><br><span class="line">&lt;class &#x27;bool&#x27;&gt;</span><br><span class="line">&lt;class &#x27;str&#x27;&gt;</span><br></pre></td></tr></table></div></figure>
+
+<p>当然了也可以把type() 存入变量输出，这里不演示了</p>
+
+        <h3 id="数据类型转换"   >
+          <a href="#数据类型转换" class="heading-link"><i class="fas fa-link"></i></a><a href="#数据类型转换" class="headerlink" title="数据类型转换"></a>数据类型转换</h3>
+      <p><strong>目标类型(变量)</strong></p>
+<p>直接按照这个格式就可以进行类型转换了</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="string">&quot;123&quot;</span></span><br><span class="line">b = <span class="number">123</span></span><br><span class="line">c =<span class="string">&quot;11.32&quot;</span></span><br><span class="line">a = <span class="built_in">int</span>(a)</span><br><span class="line">b = <span class="built_in">str</span>(b)</span><br><span class="line">c = <span class="built_in">float</span>(c)</span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">type</span>(a),<span class="string">&quot;\n&quot;</span>,<span class="built_in">type</span>(b),<span class="string">&quot;\n&quot;</span>,<span class="built_in">type</span>(c))</span><br><span class="line"><span class="built_in">print</span>(a,<span class="string">&quot;\n&quot;</span>,b,<span class="string">&quot;\n&quot;</span>,c)</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">输出：</span><br><span class="line">&lt;class &#x27;int&#x27;&gt; </span><br><span class="line"> &lt;class &#x27;str&#x27;&gt; </span><br><span class="line"> &lt;class &#x27;float&#x27;&gt;</span><br><span class="line">123 </span><br><span class="line"> 123 </span><br><span class="line"> 11.32</span><br></pre></td></tr></table></div></figure>
+
+
+
+
+        <h3 id="运算符"   >
+          <a href="#运算符" class="heading-link"><i class="fas fa-link"></i></a><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h3>
+      <p><strong>设 a &#x3D; 10,b &#x3D; 20</strong></p>
+<div class="table-container"><table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>+</td>
+<td>将数据相加</td>
+<td>a + b &#x3D; 30</td>
+</tr>
+<tr>
+<td>-</td>
+<td>将数据相减</td>
+<td>a - b &#x3D;  -10</td>
+</tr>
+<tr>
+<td>*</td>
+<td>将数据相乘</td>
+<td>a * b &#x3D; 200</td>
+</tr>
+<tr>
+<td>&#x2F;</td>
+<td>将数据相除，由于python有高精度所以会自动保留小数</td>
+<td>b &#x2F; a &#x3D; 2</td>
+</tr>
+<tr>
+<td>%</td>
+<td>取模 - 返回除法的余数</td>
+<td>b % a &#x3D; 0</td>
+</tr>
+<tr>
+<td>**</td>
+<td>返回x的y次幂</td>
+<td>a ** b &#x3D; 10的20次幂</td>
+</tr>
+<tr>
+<td>&#x2F;&#x2F;</td>
+<td>取整除 - 返回商的整数部分（<strong>向下取整</strong>）</td>
+<td>10 &#x2F;&#x2F; 3 &#x3D; 3</td>
+</tr>
+</tbody></table></div>
+
+        <h3 id="条件语句"   >
+          <a href="#条件语句" class="heading-link"><i class="fas fa-link"></i></a><a href="#条件语句" class="headerlink" title="条件语句"></a>条件语句</h3>
+      <p><strong>条件语句是通过一条或多条语句的执行结果（True或者False）来决定执行的代码块</strong></p>
+<p><strong>Python程序语言指定任何非0和非空（null）值为true，0 或者 null为false</strong></p>
+<p>Python 编程中 if 语句用于控制程序的执行，基本形式为：</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">if 判断条件：</span><br><span class="line">    执行语句……</span><br><span class="line">else：</span><br><span class="line">    执行语句……</span><br></pre></td></tr></table></div></figure>
+
+<p>条件为真时执行if语句下的代码，否则执行else下的代码</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 小名需不需要买票，买票条件为年龄大于等于18</span></span><br><span class="line">age = 输入年龄</span><br><span class="line"><span class="keyword">if</span> age &gt;= <span class="number">18</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;年龄大于等于18，需买票&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;年龄小于18，免费&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+<p>当然了，这种只能判断一种条件显然是不够用，所以我们需要完整版的条件语句</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">if 判断条件1:</span><br><span class="line">    执行语句1……</span><br><span class="line">elif 判断条件2:</span><br><span class="line">    执行语句2……</span><br><span class="line">elif 判断条件3:</span><br><span class="line">    执行语句3……</span><br><span class="line">else:</span><br><span class="line">    执行语句4……</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">age = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;Enter your age: &quot;</span>))</span><br><span class="line"><span class="keyword">if</span> age &lt; <span class="number">18</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;You are young&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> age == <span class="number">18</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;You are strong&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;You are older&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：18</span><br><span class="line">输出：You are strong</span><br></pre></td></tr></table></div></figure>
+
+<p><strong>注意：判断条件时由上到下判断，只要满足条件直接执行，剩余的条件不会进行判断</strong></p>
+<p><strong>判断条件可以用&gt;（大于）、&lt;(小于)、&#x3D;&#x3D;（等于）、&gt;&#x3D;（大于等于）、&lt;&#x3D;（小于等于）来表示其关系</strong></p>
+<p><strong>如果判断需要多个条件需同时判断时，可以使用 or （或），表示两个条件有一个成立时判断条件成功；</strong></p>
+<p><strong>使用 and （与）时，表示只有两个条件同时成立的情况下，判断条件才成功</strong></p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">age = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;Enter your age: &quot;</span>))</span><br><span class="line"><span class="keyword">if</span> age &gt;= <span class="number">18</span> <span class="keyword">and</span> age &lt; <span class="number">32</span> :</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;You are young&quot;</span>)</span><br><span class="line"><span class="keyword">elif</span> age &gt;= <span class="number">32</span> <span class="keyword">and</span> age &lt; <span class="number">65</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;You are strong&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;You are older&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：44</span><br><span class="line">输出：You are strong</span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="循环语句"   >
+          <a href="#循环语句" class="heading-link"><i class="fas fa-link"></i></a><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h3>
+      <p><strong>循环语句主要用于，我需要满足一个条件，当这个条件不满足时，我需要一直重复一段代码直到满足条件</strong></p>
+
+        <h4 id="while循环"   >
+          <a href="#while循环" class="heading-link"><i class="fas fa-link"></i></a><a href="#while循环" class="headerlink" title="while循环"></a>while循环</h4>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">while 判断条件:</span><br><span class="line">    执行语句……</span><br></pre></td></tr></table></div></figure>
+
+<p>与条件语句基本一直，只不过在不满足条件时会一直循环执行代码</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 小名年龄满足18才能进游乐园</span></span><br><span class="line">age = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入小名的年龄：&quot;</span>))</span><br><span class="line"><span class="keyword">while</span> age &lt; <span class="number">18</span> :</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;小名&quot;</span>,age,<span class="string">&quot;岁 不能进游乐园，明年再来吧！&quot;</span>)</span><br><span class="line">    age = age + <span class="number">1</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;小名&quot;</span>,age,<span class="string">&quot;岁 可以进游乐园啦！！！&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">输入：15</span><br><span class="line">输出：</span><br><span class="line">小名 15 岁 不能进游乐园，明年再来吧！</span><br><span class="line">小名 16 岁 不能进游乐园，明年再来吧！</span><br><span class="line">小名 17 岁 不能进游乐园，明年再来吧！</span><br><span class="line">小名 18 岁 可以进游乐园啦！！！</span><br></pre></td></tr></table></div></figure>
+
+<p><strong>循环语句还可以嵌套条件语句使用</strong></p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 小名要参加比赛，当小名的分数在18~30之间时，他的成绩是优秀的</span></span><br><span class="line">score = <span class="built_in">int</span>(<span class="built_in">input</span>(<span class="string">&quot;请输入小名的成绩：&quot;</span>))</span><br><span class="line"><span class="keyword">while</span> score &lt; <span class="number">18</span> <span class="keyword">or</span> score &gt; <span class="number">30</span>:</span><br><span class="line">    <span class="keyword">if</span>(score &lt; <span class="number">18</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;成绩为&quot;</span>,score,<span class="string">&quot;再提升一点吧！&quot;</span>)</span><br><span class="line">        score = score + <span class="number">2</span></span><br><span class="line">    <span class="keyword">elif</span>(score &gt; <span class="number">30</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;成绩为&quot;</span>,score,<span class="string">&quot;再降低一点吧！&quot;</span>)</span><br><span class="line">        score = score - <span class="number">2</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;小名的成绩为&quot;</span>,score,<span class="string">&quot;是优秀的！&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">输入：15</span><br><span class="line">输出：</span><br><span class="line">成绩为 15 再提升一点吧！</span><br><span class="line">成绩为 17 再提升一点吧！</span><br><span class="line">小名的成绩为 19 是优秀的！</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">输入：37</span><br><span class="line">输出：</span><br><span class="line">成绩为 37 再降低一点吧！</span><br><span class="line">成绩为 35 再降低一点吧！</span><br><span class="line">成绩为 33 再降低一点吧！</span><br><span class="line">成绩为 31 再降低一点吧！</span><br><span class="line">小名的成绩为 29 是优秀的！</span><br></pre></td></tr></table></div></figure>
+
+<p><strong>当然了循环是可以无限的，只要让条件一直为真，用户可以手动用 CTRL+C 来中止循环，这个就不演示了，可以自己实验一下</strong></p>
+
+        <h4 id="for循环"   >
+          <a href="#for循环" class="heading-link"><i class="fas fa-link"></i></a><a href="#for循环" class="headerlink" title="for循环"></a>for循环</h4>
+      <p>循环语句逻辑相同，只是语法不同，用于不同的使用场景逻辑，for循环的逻辑更有针对性，他更适用于对数据进行遍历处理</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">for 临时变量 in 数据集</span><br><span class="line">	执行代码....</span><br></pre></td></tr></table></div></figure>
+
+<p>for循环会逐个将数据集中的数据赋值给临时变量</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 只保留字符串中的奇数</span></span><br><span class="line">nums = <span class="string">&quot;123456789&quot;</span></span><br><span class="line">nums2 = <span class="string">&quot;&quot;</span></span><br><span class="line"><span class="keyword">for</span> num <span class="keyword">in</span> nums:</span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">int</span>(num) % <span class="number">2</span> != <span class="number">0</span>:</span><br><span class="line">        nums2 += num</span><br><span class="line"><span class="built_in">print</span>(nums2)</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输出：</span><br><span class="line">13579</span><br></pre></td></tr></table></div></figure>
+
+<p><strong>注意：for循环无法自定义条件，也无法无限循环</strong></p>
+<p><strong>上面所称的数据集实际上是序列，例如字符串、元组、列表等等</strong></p>
+<p><strong>range语句</strong></p>
+<p>range可以构建一个简单序列</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">range</span>(num)</span><br><span class="line"><span class="comment"># 获得一个从0开始到num-1的序列</span></span><br><span class="line"><span class="built_in">range</span>(num1,num2)</span><br><span class="line"><span class="comment"># 获得一个从num1开始到num2-1的序列</span></span><br><span class="line"><span class="built_in">range</span>(num1,num2,step)</span><br><span class="line"><span class="comment"># 获得一个从num1走step步到num2-1的序列</span></span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>):</span><br><span class="line">    <span class="built_in">print</span>(i,<span class="string">&quot; &quot;</span>, end=<span class="string">&quot; &quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;\n&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">5</span>,<span class="number">10</span>):</span><br><span class="line">    <span class="built_in">print</span>(i,<span class="string">&quot; &quot;</span>, end=<span class="string">&quot; &quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;\n&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">5</span>,<span class="number">10</span>,<span class="number">2</span>):</span><br><span class="line">    <span class="built_in">print</span>(i,<span class="string">&quot; &quot;</span>, end=<span class="string">&quot; &quot;</span>)</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;\n&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"> 输出：</span><br><span class="line">0   1   2   3   4   5   6   7   8   9   </span><br><span class="line"></span><br><span class="line">5   6   7   8   9   </span><br><span class="line"></span><br><span class="line">5   7   9   </span><br></pre></td></tr></table></div></figure>
+
+
+
+
+        <h4 id="嵌套循环"   >
+          <a href="#嵌套循环" class="heading-link"><i class="fas fa-link"></i></a><a href="#嵌套循环" class="headerlink" title="嵌套循环"></a>嵌套循环</h4>
+      <p><strong>while嵌套</strong></p>
+<p>我们可以通过两层循环来写一个九九乘法表，外层控制行数，第二层控制列数</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">1</span></span><br><span class="line">b = <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> a&lt;=<span class="number">9</span>:</span><br><span class="line">    b=<span class="number">1</span></span><br><span class="line">    <span class="keyword">while</span> b&lt;=a:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f&quot;<span class="subst">&#123;a&#125;</span>x<span class="subst">&#123;b&#125;</span>=<span class="subst">&#123;a*b&#125;</span> &quot;</span>,end=<span class="string">&quot;&quot;</span>)</span><br><span class="line">        b+=<span class="number">1</span></span><br><span class="line">    a+=<span class="number">1</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;\n&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">输出：</span><br><span class="line">1x1=1 </span><br><span class="line"></span><br><span class="line">2x1=2 2x2=4 </span><br><span class="line"></span><br><span class="line">3x1=3 3x2=6 3x3=9 </span><br><span class="line"></span><br><span class="line">4x1=4 4x2=8 4x3=12 4x4=16 </span><br><span class="line"></span><br><span class="line">5x1=5 5x2=10 5x3=15 5x4=20 5x5=25 </span><br><span class="line"></span><br><span class="line">6x1=6 6x2=12 6x3=18 6x4=24 6x5=30 6x6=36 </span><br><span class="line"></span><br><span class="line">7x1=7 7x2=14 7x3=21 7x4=28 7x5=35 7x6=42 7x7=49 </span><br><span class="line"></span><br><span class="line">8x1=8 8x2=16 8x3=24 8x4=32 8x5=40 8x6=48 8x7=56 8x8=64 </span><br><span class="line"></span><br><span class="line">9x1=9 9x2=18 9x3=27 9x4=36 9x5=45 9x6=54 9x7=63 9x8=72 9x9=81 </span><br></pre></td></tr></table></div></figure>
+
+<p><strong>for嵌套</strong></p>
+<p>依旧是外层控制行数，分成上下三角打印，内层分别控制空格和星号</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 打印菱形</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">4</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>-i):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; &quot;</span>,end=<span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="keyword">for</span> k <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>*i+<span class="number">1</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;*&quot;</span>,end=<span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;\n&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">3</span>):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(i+<span class="number">1</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot; &quot;</span>,end=<span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="keyword">for</span> k <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>*(<span class="number">2</span>-i)+<span class="number">1</span>):</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;*&quot;</span>,end=<span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;\n&quot;</span>)</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">   *</span><br><span class="line"></span><br><span class="line">  ***</span><br><span class="line"></span><br><span class="line"> *****</span><br><span class="line"></span><br><span class="line">*******</span><br><span class="line"></span><br><span class="line"> *****</span><br><span class="line"></span><br><span class="line">  ***</span><br><span class="line"></span><br><span class="line">   *</span><br></pre></td></tr></table></div></figure>
+
+
+        <h4 id="循环控制语句"   >
+          <a href="#循环控制语句" class="heading-link"><i class="fas fa-link"></i></a><a href="#循环控制语句" class="headerlink" title="循环控制语句"></a>循环控制语句</h4>
+      <p><strong>break</strong></p>
+<p>若在循环中执行该语句，那么不论如何都会直接跳出整个循环</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 小名参加跳绳比赛，跳够一百个就能晋级，但是小名的体力值不一定能跳够100个</span></span><br><span class="line"><span class="comment"># 每跳一次消耗两点体力</span></span><br><span class="line"><span class="built_in">sum</span> = <span class="built_in">input</span>(<span class="string">&quot;请输入小名当前跳绳个数：&quot;</span>)</span><br><span class="line">height = <span class="built_in">input</span>(<span class="string">&quot;请输入小名当前体力值：&quot;</span>)</span><br><span class="line"><span class="built_in">sum</span> = <span class="built_in">int</span>(<span class="built_in">sum</span>)</span><br><span class="line">height = <span class="built_in">int</span>(height)</span><br><span class="line"><span class="keyword">while</span> <span class="built_in">sum</span> &lt; <span class="number">100</span>:</span><br><span class="line">    <span class="keyword">if</span> height &lt;= <span class="number">0</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;体力值不足，跳不出来了&quot;</span>)</span><br><span class="line">        <span class="keyword">break</span></span><br><span class="line">    <span class="built_in">sum</span> = <span class="built_in">sum</span> + <span class="number">1</span></span><br><span class="line">    height = height - <span class="number">2</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;跳了一次，当前跳绳个数为：&quot;</span>,<span class="built_in">sum</span>)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;跳了一次，当前体力值为：&quot;</span>,height)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> <span class="built_in">sum</span> &gt;= <span class="number">100</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;跳够100个，晋级成功&quot;</span>)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;跳不够100个，晋级失败&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">请输入小名当前跳绳个数：95</span><br><span class="line">请输入小名当前体力值：6</span><br><span class="line">跳了一次，当前跳绳个数为： 96</span><br><span class="line">跳了一次，当前体力值为： 4</span><br><span class="line">跳了一次，当前跳绳个数为： 97</span><br><span class="line">跳了一次，当前体力值为： 2</span><br><span class="line">跳了一次，当前跳绳个数为： 98</span><br><span class="line">跳了一次，当前体力值为： 0</span><br><span class="line">体力值不足，跳不出来了</span><br><span class="line">跳不够100个，晋级失败</span><br></pre></td></tr></table></div></figure>
+
+<p><strong>continue</strong></p>
+<p>若在循环中执行该语句，则直接跳过该语句下面所有代码，执行下一次循环</p>
+<figure class="highlight python"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 输出序列所有偶数</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>,<span class="number">10</span>):</span><br><span class="line">    <span class="keyword">if</span> i%<span class="number">2</span> == <span class="number">1</span>:</span><br><span class="line">        <span class="keyword">continue</span></span><br><span class="line">    <span class="built_in">print</span>(i)</span><br><span class="line"></span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">输出：</span><br><span class="line">2</span><br><span class="line">4</span><br><span class="line">6</span><br><span class="line">8</span><br></pre></td></tr></table></div></figure>
+
+<blockquote>
+<p>[!IMPORTANT]</p>
+<p><strong>恭喜你已经学完了python的基础语法，掌握以上这些语法，可以让你完成大部分普通的程序需求，接下来我们基于语法基础进行详细展开，以及更多的编程技巧</strong></p>
+</blockquote>
+
+        <h2 id="进阶编程"   >
+          <a href="#进阶编程" class="heading-link"><i class="fas fa-link"></i></a><a href="#进阶编程" class="headerlink" title="进阶编程"></a>进阶编程</h2>
       </div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">本文作者: </span><span class="copyright-author__value"><a href="http://example.com">刘骐锋</a></span></div><div class="copyright-link"><span class="copyright-link__name">本文链接: </span><span class="copyright-link__value"><a href="http://example.com/2025/07/30/python/">http://example.com/2025/07/30/python/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">版权声明: </span><span class="copyright-notice__value">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</span></div></div><div class="post-tags"><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="http://example.com/tags/%E7%BC%96%E7%A8%8B/">编程</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="http://example.com/tags/python/">python</a></span></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/2025/07/30/algorithm/"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">algorithm</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/2025/07/29/FrontendNotes/"><span class="paginator-prev__text">FrontendNotes</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"><span class="toc-number">1.</span> <span class="toc-text">
-          python学习笔记</span></a></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/avatar.png" alt="avatar"></div><p class="sidebar-ov-author__text">欢迎光临，随便看看</p></div><div class="sidebar-ov-social"><a class="sidebar-ov-social-item" href="https://github.com/Liuqifeng-win" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-github"></i></span></a><a class="sidebar-ov-social-item" href="3940492928" target="_blank" rel="noopener" data-popover="QQ" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-qq"></i></span></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">8</div><div class="sidebar-ov-state-item__name">归档</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">你已阅读了 </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2025</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>刘骐锋</span></div><div><span>由 <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> 强力驱动</span><span> v7.3.0</span><span class="footer__devider">|</span><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.8.0</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.8.0"></script><script src="/js/stun-boot.js?v=2.8.0"></script><script src="/js/scroll.js?v=2.8.0"></script><script src="/js/header.js?v=2.8.0"></script><script src="/js/sidebar.js?v=2.8.0"></script></body></html>
+          python学习笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"><span class="toc-number">1.1.</span> <span class="toc-text">
+          基础语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BC%A9%E8%BF%9B"><span class="toc-number">1.1.1.</span> <span class="toc-text">
+          缩进</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E8%A1%8C%E8%AF%AD%E5%8F%A5"><span class="toc-number">1.1.2.</span> <span class="toc-text">
+          多行语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%A8%E9%87%8A"><span class="toc-number">1.1.3.</span> <span class="toc-text">
+          注释</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%95%E5%8F%B7"><span class="toc-number">1.1.4.</span> <span class="toc-text">
+          引号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%8C%E8%A1%8C%E5%A4%9A%E8%AF%AD%E5%8F%A5"><span class="toc-number">1.1.5.</span> <span class="toc-text">
+          同行多语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AD%97%E9%9D%A2%E9%87%8F"><span class="toc-number">1.1.6.</span> <span class="toc-text">
+          字面量</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%80%BC%E7%B1%BB%E5%9E%8B"><span class="toc-number">1.1.6.1.</span> <span class="toc-text">
+          值类型</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%93%E5%85%A5%E8%AF%AD%E5%8F%A5"><span class="toc-number">1.1.7.</span> <span class="toc-text">
+          输入语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BE%93%E5%87%BA%E8%AF%AD%E5%8F%A5"><span class="toc-number">1.1.8.</span> <span class="toc-text">
+          输出语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%98%E9%87%8F"><span class="toc-number">1.1.9.</span> <span class="toc-text">
+          变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="toc-number">1.1.10.</span> <span class="toc-text">
+          数据类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2"><span class="toc-number">1.1.11.</span> <span class="toc-text">
+          数据类型转换</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.1.12.</span> <span class="toc-text">
+          运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5"><span class="toc-number">1.1.13.</span> <span class="toc-text">
+          条件语句</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5"><span class="toc-number">1.1.14.</span> <span class="toc-text">
+          循环语句</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#while%E5%BE%AA%E7%8E%AF"><span class="toc-number">1.1.14.1.</span> <span class="toc-text">
+          while循环</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#for%E5%BE%AA%E7%8E%AF"><span class="toc-number">1.1.14.2.</span> <span class="toc-text">
+          for循环</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF"><span class="toc-number">1.1.14.3.</span> <span class="toc-text">
+          嵌套循环</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BE%AA%E7%8E%AF%E6%8E%A7%E5%88%B6%E8%AF%AD%E5%8F%A5"><span class="toc-number">1.1.14.4.</span> <span class="toc-text">
+          循环控制语句</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E9%98%B6%E7%BC%96%E7%A8%8B"><span class="toc-number">1.2.</span> <span class="toc-text">
+          进阶编程</span></a></li></ol></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/avatar.png" alt="avatar"></div><p class="sidebar-ov-author__text">欢迎光临，随便看看</p></div><div class="sidebar-ov-social"><a class="sidebar-ov-social-item" href="https://github.com/Liuqifeng-win" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-github"></i></span></a><a class="sidebar-ov-social-item" href="3940492928" target="_blank" rel="noopener" data-popover="QQ" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-qq"></i></span></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">9</div><div class="sidebar-ov-state-item__name">归档</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">你已阅读了 </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2025</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>刘骐锋</span></div><div><span>由 <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> 强力驱动</span><span> v7.3.0</span><span class="footer__devider">|</span><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.8.0</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="/js/utils.js?v=2.8.0"></script><script src="/js/stun-boot.js?v=2.8.0"></script><script src="/js/scroll.js?v=2.8.0"></script><script src="/js/header.js?v=2.8.0"></script><script src="/js/sidebar.js?v=2.8.0"></script></body></html>
